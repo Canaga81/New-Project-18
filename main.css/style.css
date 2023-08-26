@@ -1,3 +1,5 @@
+/*! General Style */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,7 @@ html {
     --text-color-white: #fff;
     --dark-color: #000;
     --color-grey: #6D6D6D;
+    --color-text-ora: #daad54;
 }
 
 body {
@@ -22,12 +25,13 @@ body {
     background-size: contain;
 }
 
+/*! Fire */
+
 .section-fire {
     padding: 7.6rem 12.3rem;
     display: flex;
     flex-direction: column;
     gap: 8.1rem;
-
 }
 
 .section-fire header .header-container {
@@ -94,7 +98,7 @@ body {
 }
 
 .section-fire header .header-container .header-navbar .header-tel a:hover {
-    background-color: #daad54;
+    background-color: var(--color-text-ora);
 }
 
 .section-fire header .header-container .header-navbar .header-tel a i {
@@ -187,4 +191,321 @@ body {
     margin-top: 0;
     position: relative;
     z-index: 2;
+}
+
+/*! Hot */
+
+.hot {
+    padding: 5rem 9.5rem;
+}
+
+.hot .hot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.hot .hot-container .hot-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.1rem;
+}
+
+.hot .hot-container .hot-top h1 {
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 60px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    background: linear-gradient(183deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hot .hot-container .hot-top p {
+    color: var(--text-color-white);
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 3.3rem; /* 165% */
+    letter-spacing: 0.6px;
+}
+
+.hot .hot-container .hot-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.hot .hot-container .hot-center .hot-icons {
+    display: flex;
+    align-items: center;
+    gap: 14rem;
+}
+
+.hot .hot-container .hot-center .hot-icons .hot-icon {
+    display: flex;
+    align-items: center;
+    gap: 2.9rem;
+}
+
+.hot .hot-container .hot-center .hot-icons .hot-icon i {
+    font-size: 3.6rem;
+    color: var(--text-color-white);
+}
+
+.hot .hot-container .hot-center .hot-icons .hot-icon p {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.hot .hot-container .hot-center .hot-image {
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+    z-index: 2;
+} 
+.hot .hot-container .hot-center .hot-image::after {
+    content: '';
+    width: 45rem;
+    height: 20rem;
+    position: absolute;
+    border-radius: 50%;
+    top: 40%;
+    right: 23%;
+    background: var(--main-color);
+    filter: blur(159px);
+}
+
+/*! Battery */
+
+.battery {
+    padding: 1rem 12.3rem;
+}
+
+.battery .battery-container {
+    display: flex;
+    align-items: center;
+}
+
+/*? Battery Left */
+
+.battery .battery-container .battery-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+
+.battery .battery-container .battery-left h2 {
+    font-family: Lab Grotesque;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 55px; /* 137.5% */
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    background: linear-gradient(185deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.battery .battery-container .battery-left .battery-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+}
+
+.battery .battery-container .battery-left .battery-text p {
+    width: 37rem;
+    color: var(--text-color-white);
+    font-family: Lab Grotesque;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 33px;
+}
+
+/*? Battery Right */
+
+/*? Battery Image */
+
+.battery .battery-container .battery-right .battery-image {
+    position: relative;
+}
+
+/*? Battery Content */
+
+.battery .battery-container .battery-right .battery-image .battery-content {
+    position: absolute;
+    top: 66%;
+    left: 16%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+}
+
+.battery .battery-container .battery-right .battery-image .battery-content .battery-icons-line {
+    display: flex;
+    align-items: center;
+    gap: 1.9rem;
+}
+
+.battery .battery-container .battery-right .battery-image .battery-content .battery-icons-line i {
+    font-size: 2rem;
+    color: var(--color-text-ora);
+    cursor: pointer;
+}
+
+.battery .battery-container .battery-right .battery-image .battery-content .battery-icons-line i:hover {
+    color: #FFCF7A;
+}
+
+.battery .battery-container .battery-right .battery-image .battery-content .battery-icons-line .battery-line {
+    width: 3.1rem;
+    height: 0.1rem;
+    background-color: var(--color-text-ora);
+}
+
+.battery .battery-container .battery-right .battery-image .battery-content .battery-text-parag {
+    width: 18.6rem;
+}
+
+.battery .battery-container .battery-right .battery-image .battery-content .battery-text-parag p {
+    color: var(--text-color-white);
+    font-family: Lab Grotesque;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*? Battery-Circle */
+
+.battery .battery-container .battery-right .battery-circle {
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    width: 12rem;
+    height: 12rem;
+    background-color: var(--color-text-ora);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.battery .battery-container .battery-right .battery-circle::after {
+    content: '';
+    width: 14rem;
+    height: 10rem;
+    position: absolute;
+    border-radius: 50%;
+    top: 30%;
+    right: 18%;
+    background: var(--main-color);
+    filter: blur(69px);
+}
+
+.battery .battery-container .battery-right .battery-circle .number {
+    color: var(--dark-color);
+    text-align: center;
+    font-family: Scania Sans CY;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.battery .battery-container .battery-right .battery-circle .minute {
+    font-size: 1.5rem;
+    color: var(--dark-color);
+    font-weight: 700;
+}
+
+.battery .battery-container .battery-right .battery-circle .text-small {
+    color: var(--dark-color);
+    text-align: center;
+    font-family: Scania Sans CY;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+/*! Kamin */
+
+.kamin {
+    padding: 3rem 8.7rem;
+}
+
+.kamin .kamin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.35rem;
+}
+
+.kamin .kamin-container .kamin-top-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.kamin .kamin-container .kamin-top-container h2 {
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 55px; /* 137.5% */
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    background: linear-gradient(181deg, var(--text-color-white) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kamin .kamin-container .kamin-top-container .kamin-line {
+    width: 4.8rem;
+    height: 0.1rem;
+    background: #949494;
+}
+
+.kamin .kamin-container .kamin-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.kamin .kamin-container .kamin-image .kamin-image-text {
+    width: 64.4rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 33px;
+    margin-bottom: 2.5rem;
+    position: absolute;
+    top: 2.5rem;
 }
