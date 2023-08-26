@@ -10,3 +10,181 @@ html {
     font-size: 62.5%;
 }
 
+:root {
+    --main-color: rgba(255, 207, 122, 1);
+    --text-color-white: #fff;
+    --dark-color: #000;
+    --color-grey: #6D6D6D;
+}
+
+body {
+    background: #1d1d1d url('https://github.com/Sada-Shukurova/Elit-Fire/blob/master/assets/images/bg.jpg?raw=true');
+    background-size: contain;
+}
+
+.section-fire {
+    padding: 7.6rem 12.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8.1rem;
+
+}
+
+.section-fire header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-fire header .header-container .header-logo-text {
+    display: flex;
+    align-items: center;
+    gap: 3.9rem;
+}
+
+.section-fire header .header-container .header-logo-text .header-text {
+    color: var(--color-grey);
+    font-family: Lab Grotesque;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    width: 9.9rem;
+    height: 3.6rem;
+}
+
+.section-fire header .header-container .header-navbar {
+    display: flex;
+    align-items: center;
+    gap: 6.1rem;
+}
+
+.section-fire header .header-container .header-navbar-a {
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+}
+
+.section-fire header .header-container .header-navbar-a a {
+    color: #949494;
+    text-align: right;
+    font-family: Lab Grotesque;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    transition: all 0.126s ease-in;
+}
+
+.section-fire header .header-container .header-navbar .header-navbar-a a:hover {
+    color: #FFCF7A;
+}
+
+.section-fire header .header-container .header-navbar .header-tel a {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #ECCF94;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.126s ease-in;
+}
+
+.section-fire header .header-container .header-navbar .header-tel a:hover {
+    background-color: #daad54;
+}
+
+.section-fire header .header-container .header-navbar .header-tel a i {
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.section-fire main .hearth-container {
+    display: flex;
+
+}
+
+.section-fire main .hearth-container .heart-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8.6rem;
+}
+
+.section-fire main .hearth-container .heart-left .hearth-left-head {
+    display: flex;
+    flex-direction: column;
+    gap: 2.9rem;
+}
+
+.section-fire main .hearth-container .heart-left .hearth-left-head h1 {
+    font-family: Lab Grotesque;
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 80px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    color: var(--text-color-white);
+    width: 52rem;
+    height: 16.1rem;
+}
+
+.section-fire main .hearth-container .heart-left .hearth-left-head .money {
+    color: #FFCF7A;
+    font-family: Lab Grotesque;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1.8px;
+}
+
+.section-fire main .hearth-container .heart-left .hearth-left-head .money span {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+
+.section-fire main .hearth-container .heart-left .hearth-left-bottom {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.section-fire main .hearth-container .heart-left .hearth-left-bottom .hearth-icon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.section-fire main .hearth-container .heart-left .hearth-left-bottom .hearth-icon-text i {
+    color: var(--text-color-white);
+    font-size: 3rem;
+}
+
+.section-fire main .hearth-container .heart-left .hearth-left-bottom .hearth-icon-text p {
+    color: var(--text-color-white);
+    font-size: 1.4rem;
+}
+
+.section-fire main .hearth-container .hearth-right .hearth-image::after {
+    content: '';
+    width: 35rem;
+    height: 20rem;
+    position: absolute;
+    border-radius: 50%;
+    top: 40%;
+    right: 23%;
+    background: var(--main-color);
+    filter: blur(159px);
+}
+
+.section-fire main .hearth-container .hearth-right .hearth-image img {
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+    z-index: 2;
+}
