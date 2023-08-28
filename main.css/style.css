@@ -514,6 +514,9 @@ body {
 
 .bonfire {
     padding: 3rem 12.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10.6rem;
 }
 
 .bonfire .bonfire-container {
@@ -642,4 +645,169 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 36px;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-5 .top-bonfire {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-5 .top-bonfire h2 {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-5 .top-bonfire p {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-5 .bonfire-image {
+    width: 53.7rem;
+    height: 34.6rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-5 .bonfire-image img {
+    width: 100%;
+}
+
+.bonfire .bonfire-container .bonfire-right {
+    display: flex;
+    flex-direction: column;
+    gap: 11.3rem;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-1 .bonfire-image {
+    width: 53.7rem;
+    height: 34.6rem;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-1 .bonfire-image img {
+    width: 100%;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-1 .bonfire-top {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-1 .bonfire-top h2 {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    width: 26.32rem;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-1 .bonfire-top p {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-2 .bonfire-image {
+    width: 53.7rem;
+    height: 34.6rem;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-2 .bonfire-image img {
+    width: 100%;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-2 .top-bonfire {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-2 .top-bonfire h2 {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.bonfire .bonfire-container .bonfire-right .bonfire-line-2 .top-bonfire p {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.bonfire .bonfire-bottom .bonfire-bottom-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.bonfire .bonfire-bottom .bonfire-bottom-center h2 {
+    color: var(--text-color-white);
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 44px;
+}
+
+.bonfire .bonfire-bottom .bonfire-bottom-center .bonfire-btn {
+    width: 28.4rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    background: #ECCF94;
+    border: none;
+    cursor: pointer;
+    transition: all 0.24s ease-in;
+}
+
+.bonfire .bonfire-bottom .bonfire-bottom-center .bonfire-btn:hover {
+    background: #e4b555;
+}
+
+.bonfire .bonfire-bottom .bonfire-bottom-center .bonfire-btn a {
+    color: #121212;
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
 }
