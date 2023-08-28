@@ -509,3 +509,137 @@ body {
     position: absolute;
     top: 2.5rem;
 }
+
+/*! Bonfire */
+
+.bonfire {
+    padding: 3rem 12.3rem;
+}
+
+.bonfire .bonfire-container {
+    display: flex;
+    gap: 8.4rem;
+}
+
+.bonfire .bonfire-container .bonfire-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-1 h2 {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-2 .bonfire-text {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-2 .bonfire-line {
+    width: 90%;
+    height: 0.1rem;
+    background: rgba(255, 207, 122, 0.72);
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-3 {
+    display: flex;
+    align-items: center;
+    gap: 9.4rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-3 .bonfire-line-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-3 .bonfire-line-left .bonfire-top h3 {
+    color: #757575;
+    font-family: Lab Grotesque;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-3 .bonfire-line-left .bonfire-center {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-3 .bonfire-line-left .bonfire-center p {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-3 .bonfire-line-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 1.5rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-3 .bonfire-line-right p {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 192.857% */
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-4 .bonfire-top h3 {
+    color: #757575;
+    font-family: Lab Grotesque;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-4 .bonfire-center {
+    display: flex;
+    gap: 9.4rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-4 .bonfire-center .bonfire-center-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.bonfire .bonfire-container .bonfire-left .bonfire-line-4 .bonfire-center .bonfire-center-left p {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
