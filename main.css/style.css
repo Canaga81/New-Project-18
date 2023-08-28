@@ -811,3 +811,46 @@ body {
     font-weight: 500;
     line-height: 30px;
 }
+
+/*! Pictures */
+
+.pictures {
+    padding: 3rem 12.3rem;
+}
+
+.pictures .pictures-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    align-items: center;
+}
+
+.pictures .pictures-container .pictures-top-container h1 {
+    color: var(--text-color-white);
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 44px;
+    background: linear-gradient(181deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pictures .pictures-container .pictures-center-container {
+    display: flex;
+    gap: 4.2rem;
+}
+
+.pictures .pictures-container .pictures-center-container .pictures-image {
+    width: 37rem;
+    height: 26.7rem;
+    border-radius: 0.2rem;
+    background: #121212;
+}
+
+.pictures .pictures-container .pictures-center-container .pictures-image img {
+    width: 100%;
+}
