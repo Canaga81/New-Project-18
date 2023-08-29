@@ -24,3 +24,16 @@ var swiperStore = new Swiper(".boySwipper", {
         },
     },
 });
+
+var swiper = new Swiper(".mySwiper", {
+    cssMode: true,
+    navigation: {
+      nextEl: ".mySwiper-button-next",
+      prevEl: ".mySwiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+  });
