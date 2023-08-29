@@ -1191,6 +1191,7 @@ body {
 
 .contack {
     padding: 7.3rem 12.3rem;
+    background: #121212;
 }
 
 .contack .contack-container {
@@ -1289,7 +1290,7 @@ body {
     font-size: 3.6rem;
     font-style: normal;
     font-weight: 250;
-    line-height: 33px; 
+    line-height: 33px;
 }
 
 .contack .contack-container .contack-center-container .contack-right .contack-column .column-button .column-btn {
@@ -1314,4 +1315,22 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
+}
+
+/*! Section-Line */
+
+.section-line {
+    width: 100%;
+    height: 0.1rem;
+    background: #232323;
+}
+
+/*! Footer */
+
+footer {
+    padding: 1.6rem 12.3rem;
+}
+
+footer .footer-container {
+    
 }
