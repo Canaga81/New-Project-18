@@ -524,7 +524,8 @@ body {
 }
 
 .kamin .kamin-container .kamin-image .kamin-image {
-    
+    max-width: 150.6rem;
+    height: 60rem;
 }
 
 .kamin .kamin-container .kamin-image .kamin-image img {
@@ -1466,6 +1467,97 @@ footer .footer-container .footer-right .footer-item p {
         padding: 7.3rem 4.5rem;
         background: #121212;
         width: 100%;
+    }
+
+}
+
+@media(max-width: 900px) {
+
+    /*! General Style */
+
+    html {
+        font-size: 48.5%;
+    }
+
+    /*! Section-Fire */
+
+    .section-fire main {
+        padding: 7.6rem 1.5rem;
+    }
+    
+    .section-fire main .hearth-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*! Hot */
+
+    .hot {
+        padding: 5rem 1.5rem;
+    }
+
+    /*! Battery */
+
+    .battery {
+        padding: 7.5rem 1.5rem;
+    }
+
+    .battery .battery-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .battery .battery-container .battery-left .battery-text {
+        text-align: center;
+    }
+
+    /*! Kamin */
+
+    .kamin {
+        padding: 3rem 1.5rem;
+    }
+
+    .bonfire {
+        padding: 3rem 1.5rem;
+    }
+
+    .bonfire .bonfire-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5.4rem;
+    }
+
+    .bonfire .bonfire-container .bonfire-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .bonfire .bonfire-container .bonfire-left .bonfire-line-3 .bonfire-line-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+        gap: 1.5rem;
+    }
+
+    .bonfire .bonfire-container .bonfire-right .bonfire-line-1 .bonfire-top p {
+        color: #FFF;
+        font-family: Lab Grotesque;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        width: 45rem;
+    }
+
+    .bonfire .bonfire-container .bonfire-left .bonfire-line-3 {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 9.4rem;
     }
 
 }
