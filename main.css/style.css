@@ -535,7 +535,7 @@ body {
 /*! Bonfire */
 
 .bonfire {
-    padding: 3rem 12.3rem;
+    padding: 3.6rem 12.3rem;
     display: flex;
     flex-direction: column;
     gap: 10.6rem;
@@ -866,6 +866,7 @@ body {
 .pictures .pictures-container .pictures-center-container {
     display: flex;
     gap: 4.2rem;
+    flex-wrap: wrap;
 }
 
 .pictures .pictures-container .pictures-center-container .pictures-image {
@@ -1441,6 +1442,7 @@ footer .footer-container .footer-right .footer-item p {
 
     .bonfire {
         padding: 3rem 4.5rem;
+        margin-top: 24rem;
     }
 
     /*! Pictures */
@@ -1484,7 +1486,7 @@ footer .footer-container .footer-right .footer-item p {
     .section-fire main {
         padding: 7.6rem 1.5rem;
     }
-    
+
     .section-fire main .hearth-container {
         display: flex;
         flex-direction: column;
@@ -1517,8 +1519,11 @@ footer .footer-container .footer-right .footer-item p {
         padding: 3rem 1.5rem;
     }
 
+    /*! Bonfire */
+
     .bonfire {
         padding: 3rem 1.5rem;
+        margin-top: 32rem;
     }
 
     .bonfire .bonfire-container {
@@ -1554,10 +1559,72 @@ footer .footer-container .footer-right .footer-item p {
     }
 
     .bonfire .bonfire-container .bonfire-left .bonfire-line-3 {
+        margin-left: -25rem;
+    }
+
+    .bonfire .bonfire-container .bonfire-left .bonfire-line-4 {
+        margin-left: -17.4rem;
+    }
+
+    /*! Pictures */
+
+    .pictures {
+        width: 100%;
+        padding: 3rem 1.5rem;
+    }
+
+    .pictures .pictures-container .pictures-center-container {
         display: flex;
-        align-items: start;
-        justify-content: start;
-        gap: 9.4rem;
+        justify-content: center;
+    }
+
+    /*! Author */
+
+    .author {
+        width: 100%;
+        padding: 3rem 1.5rem;
+    }
+
+    .author .author-container .author-center-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4.5rem;
+    }
+
+    .author .author-container .author-bottom-container {
+        display: flex;
+        flex-direction: column;
+        gap: 6.9rem;
+        align-items: center;
+    }
+
+    .author .author-container .author-bottom-container .author-bottom-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25.1rem;
+    }
+
+    /*! Contack */
+
+    .contack {
+        padding: 7.3rem 1.5rem;
+        background: #121212;
+        width: 100%;
+    }
+
+    .contack .contack-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7.1rem;
+    }
+
+    .contack .contack-container .contack-center-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 }
