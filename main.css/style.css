@@ -1074,10 +1074,12 @@ body {
 .author .author-container .author-bottom-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .author .author-container .author-bottom-container .author-bottom-section {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 19.1rem;
 }
@@ -1087,4 +1089,229 @@ body {
     flex-direction: column;
 }
 
-.author .author-container .author-bottom-container .author-bottom-section .author-text-num 
+.author .author-container .author-bottom-container .author-bottom-section .author-text-num .p-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Lab Grotesque;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    /* 458.333% */
+    letter-spacing: 1.62px;
+    text-transform: uppercase;
+}
+
+.author .author-container .author-bottom-container .author-bottom-section .author-text-num .num {
+    color: #FFF;
+    font-family: Lab Grotesque;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    /* 229.167% */
+}
+
+
+.author .author-container .author-bottom-container .author-bottom-section .author-text-chevron {
+    display: flex;
+    flex-direction: column;
+}
+
+.author .author-container .author-bottom-container .author-bottom-section .author-text-chevron .p-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Lab Grotesque;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 1.62px;
+    text-transform: uppercase;
+}
+
+.author .author-container .author-bottom-container .author-bottom-section .author-text-chevron .chevron {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 500px;
+    background: #B8542A;
+}
+
+.author .author-container .author-bottom-container .author-bottom-section .author-text-money {
+    display: flex;
+    flex-direction: column;
+}
+
+.author .author-container .author-bottom-container .author-bottom-section .author-text-money .p-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Lab Grotesque;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 1.62px;
+    text-transform: uppercase;
+}
+
+.author .author-container .author-bottom-container .author-bottom-section .author-text-money .money {
+    color: #FFCF7A;
+    font-family: Lab Grotesque;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1.8px;
+}
+
+.author .author-container .author-bottom-container .author-bottom-section .author-button .author-btn {
+    width: 25.4rem;
+    height: 6rem;
+    flex-shrink: 0;
+    background-color: #ECCF94;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.24s ease-in;
+}
+
+.author .author-container .author-bottom-container .author-bottom-section .author-button .author-btn:hover {
+    background-color: #e4ac3c;
+}
+
+.author .author-container .author-bottom-container .author-bottom-section .author-button .author-btn a {
+    color: #121212;
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+/*! Contack */
+
+.contack {
+    padding: 7.3rem 12.3rem;
+}
+
+.contack .contack-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7.1rem;
+}
+
+.contack .contack-container .contack-top-container h1 {
+    font-family: Lab Grotesque;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 55px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    background: linear-gradient(181deg, #FFF 1.87%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contack .contack-container .contack-center-container {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 38.7rem; */
+}
+
+.contack .contack-container .contack-center-container .contack-left {
+    display: flex;
+    gap: 21.7rem;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-column .column-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-column .column-section h4 {
+    color: #949494;
+    font-family: Lab Grotesque;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-column .column-section a {
+    color: var(--text-color-white);
+    font-family: Lab Grotesque;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-column .yellow-text {
+    color: #FFCF7A;
+    font-family: Lab Grotesque;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.contack .contack-container .contack-center-container .contack-right .contack-column {
+    display: flex;
+    flex-direction: column;
+    gap: 6.1rem;
+}
+
+.contack .contack-container .contack-center-container .contack-right .contack-column .column-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.contack .contack-container .contack-center-container .contack-right .contack-column .column-section h4 {
+    color: #949494;
+    font-family: Lab Grotesque;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.contack .contack-container .contack-center-container .contack-right .contack-column .column-section a {
+    color: var(--text-color-white);
+    font-family: Lab Grotesque;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 33px; 
+}
+
+.contack .contack-container .contack-center-container .contack-right .contack-column .column-button .column-btn {
+    width: 27.9rem;
+    height: 6rem;
+    border-radius: 0.2rem;
+    border: 1px solid #CEB787;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.24s ease-in;
+}
+
+.contack .contack-container .contack-center-container .contack-right .contack-column .column-button .column-btn:hover {
+    background-color: #757575;
+}
+
+.contack .contack-container .contack-center-container .contack-right .contack-column .column-button .column-btn a {
+    color: var(--text-color-white);
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
